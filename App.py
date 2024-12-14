@@ -113,7 +113,7 @@ if selected == "Home":
     # Konfigurasi Streamlit
     st.title("Aplikasi Klasifikasi Sampah")
 
-    confidence_threshold = 0.7
+    confidence_threshold = 0.9
 
     uploaded_file = st.file_uploader("Unggah Gambar Sampah:", type=["jpg", "png", "jpeg"])
 
